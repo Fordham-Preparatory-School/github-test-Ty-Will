@@ -5,7 +5,7 @@ public class PaperSlip {
         int firstLetter = 4; 
         while (firstLetter >= 0)
         {
-            System.out.println(t.substring(firstLetter));  
+            System.out.println(t.substring(firstLetter, firstLetter + 1));  
             firstLetter--; 
 
         } 
